@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  FavoritePhotos
 //
 //  Created by Marion Ano on 3/31/14.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property UIImageView *imageView;
+@interface DetailViewController : UIViewController
+@property UIImage *myImageView;
+
+
+
+
 @end
